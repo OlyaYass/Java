@@ -17,7 +17,7 @@ class DrinkTest {
 
     @Test
     void testGetCost() {
-        assertEquals(4,drink.getCost());
+        assertEquals(190,drink.getCost());
     }
 
     @Test
@@ -27,6 +27,6 @@ class DrinkTest {
 
     @Test
     void getName() {
-        assertEquals("Juic", drink.getName());
+        assertEquals("Juice", drink.getName());
     }
 }
