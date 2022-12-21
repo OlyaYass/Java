@@ -72,7 +72,7 @@ public class Task5 {
             }
         }
 
-        Task1 task = new Task1(s1, s2);
+        Task5 task = new Task5(s1, s2);
         System.out.println(task.game());
     }
 }
