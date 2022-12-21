@@ -1,6 +1,6 @@
 import java.util.Comparator;
 
-public class SortingStudents implements Comparable<Students> {
+public class SortingStudents {
     public void quickSort(Students arr[], int begin, int end) {
         if (begin < end) {
             int partitionIndex = partition(arr, begin, end);
@@ -10,7 +10,6 @@ public class SortingStudents implements Comparable<Students> {
         }
     }
 
-    @Override
     public int compareTo(Students s1, Students s2) {
         if (s1.mark == s2.mark) {
             return 0;
@@ -47,10 +46,10 @@ public class SortingStudents implements Comparable<Students> {
 
     public static void main(String[] args) {
         Students[] array = new Students[4];
-        array[0] = new Students("Kate", "5");
-        array[1] = new Students("Olya", "4");
-        array[2] = new Students("Mark", "5");
-        array[3] = new Students("Ivan", "3");
+        array[0] = new Students("Kate", 5);
+        array[1] = new Students("Olya", 4);
+        array[2] = new Students("Mark", 5);
+        array[3] = new Students("Ivan", 3);
 
         SortingStudents sort = new SortingStudents();
         sort.quickSort(array,0, array.length -1);
