@@ -1,0 +1,5 @@
+restaurant 1 dish Salad Caesar 340
+restaurant 2 drink Juice Orange 190
+internet Moscow dish Pizza Pepperoni 490
+error line
+restaurant 1 dish qwe qwe 123
